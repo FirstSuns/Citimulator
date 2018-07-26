@@ -1,10 +1,13 @@
-import React, { Component } from 'react'
-import {Button } from '../components';
+import React, { Component } from 'react';
+import {HomePage, TradePage} from '../components';
+import {Route} from 'react-router-dom';
+
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Button />
+        <Route exact path="/" component = {HomePage} />
+        <Route path="/trade" component = {TradePage} /> 
       </div>
     )
   }

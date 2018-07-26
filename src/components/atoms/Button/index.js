@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../Button/style.scss';
+import style from '../Button/Button.scss';
 const Button = () => {
   return (
     <div className = {style.button}>
