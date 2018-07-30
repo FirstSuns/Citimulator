@@ -1,6 +1,11 @@
 $breakpoints: (
   small: 376px, 
-  medium: 764px, 
+  medium: 768px, 
   large: 1024px, 
   huge: 1200px
+);
+
+$z-indexes: (
+  'header': 5,
+  'screen-mask': 20
 );
